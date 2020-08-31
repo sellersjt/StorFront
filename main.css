@@ -28,6 +28,9 @@
     display: flex;
     justify-content: space-between;
   }
+  .main-nav {
+    margin-left: 0;
+  }
 }
 
 @media (min-width: 700px) {
@@ -44,6 +47,9 @@
   }
   .side ul {
     flex-direction: column;
+  }
+  .main-nav {
+    margin-left: 1.5em;
   }
 }
 
@@ -97,7 +103,7 @@ header h2 {
   border-radius: 25px;
   text-shadow: -1px -0.5px 0 #000, 1px -0.5px 0 #000, -1px 0.5px 0 #000,
     1px 0.5px 0 #000;
-  margin-left: 1.5em;
+  /* margin-left: 1.5em; */
 }
 
 .main-nav ul {
