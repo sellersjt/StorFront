@@ -96,14 +96,12 @@ header h2 {
 .main-nav {
   font-size: 1.7em;
   text-decoration: none;
-  padding: 0.3em 0.6em;
   color: #e47506;
   display: table;
   background-color: rgba(122, 122, 122, 0.75);
   border-radius: 25px;
   text-shadow: -1px -0.5px 0 #000, 1px -0.5px 0 #000, -1px 0.5px 0 #000,
     1px 0.5px 0 #000;
-  /* margin-left: 1.5em; */
 }
 
 .main-nav ul {
